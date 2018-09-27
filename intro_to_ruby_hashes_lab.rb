@@ -15,8 +15,9 @@ def monopoly
 end
 
 def monopoly_with_second_tier
-  monopoly[0][:pieces] = 4
-  binding.pry
+  monopoly = {}
+  monopoly[:railroads][:pieces] = 4
+
   monopoly
 end
 
