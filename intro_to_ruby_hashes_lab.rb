@@ -1,4 +1,3 @@
-require pry
 
 def new_hash
   new_hash = Hash.new 
